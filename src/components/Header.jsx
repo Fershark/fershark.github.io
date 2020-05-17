@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
+import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 
@@ -22,10 +22,7 @@ const linearHeaderStyles = css`
   }
 `;
 
-const HeaderTitle = ({ conditions, children }) =>
-  conditions ? <h1>{children}</h1> : <h3>{children}</h3>;
-
-const Social = styled.div`
+const SocialContainer = styled.div`
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -56,39 +53,30 @@ const Social = styled.div`
   }
 `;
 
+const HeaderTitle = ({ conditions, children }) =>
+  conditions ? <h1>{children}</h1> : <h3>{children}</h3>;
+
 const LinkStyled = styled(Link)`
   box-shadow: none;
   color: ${colors.primary};
 `;
 
-const Header = ({ location, title }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          social {
-            link
-            name
-          }
-        }
-      }
-    }
-  `);
+const Header = ({ location, title, social }) => {
   const rootPath = `${__PATH_PREFIX__}/`;
   const isRootPath = location.pathname === rootPath;
-
+  
   return (
     <header css={isRootPath ? null : linearHeaderStyles}>
       <HeaderTitle conditions={isRootPath}>
         <LinkStyled to={`/`}>{title}</LinkStyled>
       </HeaderTitle>
-      <Social bottom={isRootPath}>
-        {data.site.siteMetadata.social.map(({ link, name }, index) => (
+      <SocialContainer bottom={isRootPath}>
+        {social.map(({ link, name }, index) => (
           <a href={link} key={index}>
             {name}
           </a>
         ))}
-      </Social>
+      </SocialContainer>
     </header>
   );
 };

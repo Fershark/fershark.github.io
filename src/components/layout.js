@@ -11,7 +11,7 @@ const LayoutContainer = styled.div`
   max-width: ${dimensions.maxwidthDesktop}px;
   padding-left: ${dimensions.paddingHorizontalDesktop}em;
   padding-right: ${dimensions.paddingHorizontalDesktop}em;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   margin: 0 auto;
 
   @media (max-width: ${dimensions.maxwidthTablet}px) {
@@ -29,12 +29,12 @@ const LayoutContainer = styled.div`
   }
 `;
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, social, children }) => {
   return (
     <LayoutContainer>
       <Global styles={[globalStyles, typeStyles]} />
       <div className="Layout">
-        <Header location={location} title={title} />
+        <Header location={location} title={title} social={social}/>
         <main className="Layout__content">{children}</main>
         <footer>
           © {new Date().getFullYear()} Fernando Chavez Riquelme All rights
