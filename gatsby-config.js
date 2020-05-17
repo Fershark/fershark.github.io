@@ -1,17 +1,29 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Fernando`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Fernando Chavez Riquelme`,
+      summary: `who lives and works in Vancouver building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    social: [
+      {
+        name: `Resume`,
+        link: `Fernando_Chavez Riquelme_Resume.pdf`,
+      },
+      {
+        name: `LinkedIn`,
+        link: `https://www.linkedin.com/in/ferchriquelme/`,
+      },
+      {
+        name: `Github`,
+        link: `https://github.com/Fershark`
+      }
+    ],
   },
   plugins: [
+    `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -80,4 +92,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
