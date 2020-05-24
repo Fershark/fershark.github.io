@@ -25,11 +25,11 @@ const LayoutContainer = styled.div`
   }
 
   .Layout__content {
-    padding-bottom: 5em;
+    padding-bottom: 4em;
   }
 `;
 
-const Layout = ({ location, title, social, children }) => {
+const Layout = ({ location, title, social, authorName, children }) => {
   return (
     <LayoutContainer>
       <Global styles={[globalStyles, typeStyles]} />
@@ -37,7 +37,7 @@ const Layout = ({ location, title, social, children }) => {
         <Header location={location} title={title} social={social}/>
         <main className="Layout__content">{children}</main>
         <footer>
-          © {new Date().getFullYear()} Fernando Chavez Riquelme All rights
+          © {new Date().getFullYear()} {authorName} All rights
           reserved
         </footer>
       </div>

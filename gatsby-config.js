@@ -3,7 +3,7 @@ module.exports = {
     title: `Fernando`,
     author: {
       name: `Fernando Chavez Riquelme`,
-      summary: `who lives and works in Vancouver building useful things.`,
+      shortName: `Fernando`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,

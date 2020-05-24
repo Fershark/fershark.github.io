@@ -1,4 +1,3 @@
-// Gatsby supports TypeScript natively!
 import React from "react";
 import { PageProps, Link, graphql } from "gatsby";
 
@@ -7,40 +6,14 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { rhythm } from "../utils/typography";
 
-type Data = {
-  site: {
-    siteMetadata: {
-      title: string;
-      social: {
-        link: string;
-        name: string;
-      };
-    };
-  };
-  allMarkdownRemark: {
-    edges: {
-      node: {
-        excerpt: string;
-        frontmatter: {
-          title: string;
-          date: string;
-          description: string;
-        };
-        fields: {
-          slug: string;
-        };
-      };
-    }[];
-  };
-};
-
 const BlogIndex = ({ data, location }: PageProps<Data>) => {
   const siteTitle = data.site.siteMetadata.title;
   const social = data.site.siteMetadata.social;
+  const authorName = data.site.siteMetadata.author.name;
   const posts = data.allMarkdownRemark.edges;
 
   return (
-    <Layout location={location} title={siteTitle} social={social}>
+    <Layout location={location} title={siteTitle} social={social} authorName={authorName}>
       <SEO title={siteTitle} />
       <Bio />
       {posts.map(({ node }) => {
@@ -73,13 +46,44 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
   );
 };
 
-export default BlogIndex;
+type Data = {
+  site: {
+    siteMetadata: {
+      title: string;
+      author: {
+        name: string;
+      }
+      social: {
+        link: string;
+        name: string;
+      };
+    };
+  };
+  allMarkdownRemark: {
+    edges: {
+      node: {
+        excerpt: string;
+        frontmatter: {
+          title: string;
+          date: string;
+          description: string;
+        };
+        fields: {
+          slug: string;
+        };
+      };
+    }[];
+  };
+};
 
 export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
         title
+        author {
+          name
+        }
         social {
           link
           name
@@ -103,3 +107,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default BlogIndex;

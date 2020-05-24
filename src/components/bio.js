@@ -1,13 +1,7 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
+import { css } from "@emotion/core";
 
 import { rhythm } from "../utils/typography";
 
@@ -25,19 +19,20 @@ const Bio = () => {
         siteMetadata {
           author {
             name
-            summary
+            shortName
           }
         }
       }
     }
   `);
 
-  const { author, social } = data.site.siteMetadata;
+  const { author } = data.site.siteMetadata;
   return (
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: 0,
+        alignItems: `center`,
       }}
     >
       <Image
@@ -53,11 +48,36 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
-        <a href={`https://twitter.com/`}>You should follow him on Twitter</a>
-      </p>
+      <div>
+        <h3
+          css={css`
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+          `}
+        >
+          Hi, I'm {author.shortName}!
+        </h3>
+        <p
+          css={css`
+            margin: 0;
+          `}
+        >
+          I am a software developer who is passionate about applying technology
+          to solve real world problems, recently graduated from Computer and
+          Information Systems Post-Baccalaureate Diploma at{" "}
+          <a
+            css={css`
+              box-shadow: none;
+              color: inherit;
+              font-weight: bold;
+            `}
+            href="https://www.douglascollege.ca/programs-courses/catalogue/programs/PBDCIS"
+          >
+            Douglas College
+          </a>{" "}
+          in New Westminster, Canada.
+        </p>
+      </div>
     </div>
   );
 };

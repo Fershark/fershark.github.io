@@ -10,10 +10,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
   const social = data.site.siteMetadata.social;
+  const authorName = data.site.siteMetadata.author.name;
   const { previous, next } = pageContext;
 
   return (
-    <Layout location={location} title={siteTitle} social={social}>
+    <Layout location={location} title={siteTitle} social={social} authorName={authorName}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -86,6 +87,9 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        author {
+          name
+        }
         social {
           link
           name
