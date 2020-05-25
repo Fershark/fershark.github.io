@@ -4,6 +4,13 @@ module.exports = {
     author: {
       name: `Fernando Chavez Riquelme`,
       shortName: `Fernando`,
+      summary: `I am a software developer who is passionate about applying technology
+      to solve real world problems, recently graduated from Computer and
+      Information Systems Post-Baccalaureate Diploma at
+      <a href="https://www.douglascollege.ca/programs-courses/catalogue/programs/PBDCIS">
+        Douglas College
+      </a>
+      in New Westminster, Canada.`
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,

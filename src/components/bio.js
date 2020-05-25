@@ -20,6 +20,7 @@ const Bio = () => {
           author {
             name
             shortName
+            summary
           }
         }
       }
@@ -60,23 +61,14 @@ const Bio = () => {
         <p
           css={css`
             margin: 0;
-          `}
-        >
-          I am a software developer who is passionate about applying technology
-          to solve real world problems, recently graduated from Computer and
-          Information Systems Post-Baccalaureate Diploma at{" "}
-          <a
-            css={css`
+            a {
               box-shadow: none;
               color: inherit;
               font-weight: bold;
-            `}
-            href="https://www.douglascollege.ca/programs-courses/catalogue/programs/PBDCIS"
-          >
-            Douglas College
-          </a>{" "}
-          in New Westminster, Canada.
-        </p>
+            }
+          `}
+          dangerouslySetInnerHTML={{ __html: author.summary }}
+        />
       </div>
     </div>
   );
