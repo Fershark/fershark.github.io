@@ -1,10 +1,10 @@
 import React from "react";
-import { PageProps, Link, graphql } from "gatsby";
+import { PageProps, graphql } from "gatsby";
 
 import Bio from "../components/bio";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import { rhythm } from "../utils/typography";
+import ProjectCard from "../components/ProjectCard";
 
 const BlogIndex = ({ data, location }: PageProps<Data>) => {
   const siteTitle = data.site.siteMetadata.title;
@@ -16,32 +16,16 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
     <Layout location={location} title={siteTitle} social={social} authorName={authorName}>
       <SEO title={siteTitle} />
       <Bio />
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug;
-        return (
-          <article key={node.fields.slug}>
-            <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
-          </article>
-        );
-      })}
+      {posts.map(({node}, i) => (
+        <ProjectCard
+          key={i}
+          category={node.frontmatter.date}
+          title={node.frontmatter.title || node.fields.slug}
+          description={node.frontmatter.description || node.excerpt}
+          thumbnail={node.frontmatter.mainImage ? node.frontmatter.mainImage.publicURL : null}
+          link={node.fields.slug}
+        />
+      ))}
     </Layout>
   );
 };
@@ -67,6 +51,9 @@ type Data = {
           title: string;
           date: string;
           description: string;
+          mainImage: {
+            publicURL: string;
+          }
         };
         fields: {
           slug: string;
@@ -101,6 +88,9 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            mainImage {
+              publicURL
+            }
           }
         }
       }
