@@ -12,7 +12,7 @@ module.exports = {
       </a>
       in New Westminster, Canada.`
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Fernando's portafolio`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: [
       {

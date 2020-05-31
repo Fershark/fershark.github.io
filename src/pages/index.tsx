@@ -14,7 +14,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
 
   return (
     <Layout location={location} title={siteTitle} social={social} authorName={authorName}>
-      <SEO title={siteTitle} />
+      <SEO />
       <Bio />
       {posts.map(({node}, i) => (
         <ProjectCard
