@@ -36,6 +36,18 @@ const globalStyles = css`
     }
   }
 
+  a {
+    box-shadow: none;
+  }
+
+  ul, ol {
+    margin-left:1.75rem;
+  }
+
+  blockquote {
+    margin-left: 2.5rem;
+  }
+  
   /*
     A workaround for forcing accessibility wrappers
     to have a 100% height.

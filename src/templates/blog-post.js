@@ -14,7 +14,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const { previous, next } = pageContext;
 
   return (
-    <Layout location={location} title={siteTitle} social={social} authorName={authorName}>
+    <Layout
+      location={location}
+      title={siteTitle}
+      social={social}
+      authorName={authorName}
+    >
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -45,7 +50,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             marginBottom: rhythm(1),
           }}
         />
-        <footer>
+        <footer
+          style={{
+            marginBottom: rhythm(1),
+          }}
+        >
           <Bio />
         </footer>
       </article>
@@ -58,6 +67,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,
+            marginBottom: 0
           }}
         >
           <li>
