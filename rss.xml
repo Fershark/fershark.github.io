@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fernando]]></title><description><![CDATA[Fernando's portafolio]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 08 Jun 2020 07:54:14 GMT</lastBuildDate><item><title><![CDATA[Eat Now]]></title><description><![CDATA[Repository Eat NOW Overview The goal of the project is to develop an Android app on Food Ordering System which is designed to order the food…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/eat-now/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/eat-now/</guid><pubDate>Tue, 19 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Repository&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Fershark/eatNow-csis3175&quot;&gt;Eat NOW&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Overview&lt;/h3&gt;
+&lt;p&gt;The goal of the project is to develop an Android app on Food Ordering System which is designed to order the food online from a
+restaurant (near you) of your choice via the mobile app. This was my final project in Douglas College Introduction to Mobile Development.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e6729e62d0b16b9a637513450f76e13f/7cad8/Cover.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACyUlEQVQoz0WSzWsUdxjHBw8iSIS0vTQKpSf/BLvJ1mRNq14UGyylPfUPKHjz4Mul9CCCtF60aQnUioIgbeLFHnPQ0pOJoGYTk93Mzu7Ozs7rzvvMbvLxmamaw5eHmef3+zzf5/c8it3/i76+gKn/KrqN3b+HY/yItnGErZdHadU/wFLH6W2NYWkTGM3DqPVPWV+doPFijH7zEPrWQfrqJ0TeTZS1tQZPnj5nZbXBs2frdPWQnR2P7c15ttZv0ZRo6nfI4kXM7gKueZ+udpfI/5skfCT/l8iiRdJoiWH2EiVJIAwDosiSmJAku2RZjjcYYTsZtp1iWSlhBPqr5wKSnL+L4+al0pQyl8SIEQQYzBO757A7NYnfSaXHAtzFMDq02y2RKoUGUihCb20QhZ4UcyTfFenYVl9yIXkcMBpmKLG5n/rKhyz/M47THicwPpJWluWwXwINw8B1XYIgRH3xL1Hg4vsBcRyT57kUz6RgSCyt7ohFJbMPsPTgINd/OkB3c4zI/FiAT+h2XTRNLQ8XSuRCu/GKMBhIm2mpAliogBffo9EIJQ0fYmjf06x/hdf/gSz5T6qC5zkiT97PKmMklzqbK8TS/nA4ElBWuiv0DlwCs+Q1eVYX0Cp5ukHxnaamuOvQarVK2bZNIg6M5pq0PCAfDvdg76HZ/8DQuYBvXaWnXSZ0LokuEker4irGNA0cx5H3C0qH5nZdHPpyeQ+4p7cO48G1ciE982fiwS+iG6RxnV7PQVW36XQ6JTBJxGFPlylH0vIOmUCL1ofitihQaDSSocS+rI3/JwPnD4l3iAYL0nYDvWehtVSZdLscSJ4nAgwIXTljn5IV+4a+NofbO0/kzIm+ldV5gFI7Mcf09BlmvyjiWb48+TVT1RmmpiapVqtUKhVmZ2ep1WYknmbyswmmqwpTFYXPJ/dROaZQO76PEzP7+f23K7wBnj480nXk5pEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Cover&quot;
+        title=&quot;Cover&quot;
+        src=&quot;/static/e6729e62d0b16b9a637513450f76e13f/fcda8/Cover.png&quot;
+        srcset=&quot;/static/e6729e62d0b16b9a637513450f76e13f/12f09/Cover.png 148w,
+/static/e6729e62d0b16b9a637513450f76e13f/e4a3f/Cover.png 295w,
+/static/e6729e62d0b16b9a637513450f76e13f/fcda8/Cover.png 590w,
+/static/e6729e62d0b16b9a637513450f76e13f/efc66/Cover.png 885w,
+/static/e6729e62d0b16b9a637513450f76e13f/c83ae/Cover.png 1180w,
+/static/e6729e62d0b16b9a637513450f76e13f/7cad8/Cover.png 3240w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Team&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Raphael Tomohiko Yamada&lt;/li&gt;
+&lt;li&gt;David Araújo&lt;/li&gt;
+&lt;li&gt;Fernando Chavez Riquelme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Role&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Team Leader&lt;/li&gt;
+&lt;li&gt;Developer&lt;/li&gt;
+&lt;li&gt;UX Designer&lt;/li&gt;
+&lt;li&gt;Project Manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Tools used&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;wireframe.cc&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Android Studio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Launch Screen&lt;/li&gt;
+&lt;li&gt;Local DB managed with Room Persistance Library&lt;/li&gt;
+&lt;li&gt;Proximity calcutation with Latitude and Longitude&lt;/li&gt;
+&lt;li&gt;Google geocoder to get the Latitude/Longitude from an address&lt;/li&gt;
+&lt;li&gt;Customized buttons and tabs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/91a951fc420961486c74905bdf471623/beaf9/Layout.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.108108108108105%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3gUH/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFxABAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAQABPyHsawX/2gAMAwEAAgADAAAAEAAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARITFB/9oACAEBAAE/EDHd9uAG1mGqz//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Layout&quot;
+        title=&quot;Layout&quot;
+        src=&quot;/static/91a951fc420961486c74905bdf471623/1c72d/Layout.jpg&quot;
+        srcset=&quot;/static/91a951fc420961486c74905bdf471623/a80bd/Layout.jpg 148w,
+/static/91a951fc420961486c74905bdf471623/1c91a/Layout.jpg 295w,
+/static/91a951fc420961486c74905bdf471623/1c72d/Layout.jpg 590w,
+/static/91a951fc420961486c74905bdf471623/a8a14/Layout.jpg 885w,
+/static/91a951fc420961486c74905bdf471623/fbd2c/Layout.jpg 1180w,
+/static/91a951fc420961486c74905bdf471623/beaf9/Layout.jpg 4833w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fd9cf20fd66f92ee29a6e166e1f26e57/7cad8/screen1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACkUlEQVQoz1VSS2sTURgNuBKsChakG5FC11LpytAmaUj7L+yi6EZwYUF34q5bQYpFcCEBxZ2PjRvrxlKw1S4sltpHMmkmmUdmJsm87jzM8dwkjThw+O7c7/vOPd8j07bewzFfES9hGy+I17C0J6gfTuH09w1oJxPQKxPQKldhKpO0k1D2p3D08xr2v1/Ewe4YtOML9F1H0FlHJkkAIQDfH9j0DxCHn1DZOwf18Dw8/Qo8Y5x2HL5xGa61jGr1OarHa9DUN/C7HxF67yD8D0jiA2SiKIBSPcHu7g50vY40BQJvG43qPbQa9+E7D+HZEivw7QfwvS+o6AZMswPX7fXjo5giCHnOxHGChDJT/iVJiiiKCGmpOBoEMmRgiUikaOsq6nUFilJhVT6kKIk0TZAJ/F98TYNtmwgCl0kC8pE4chAGp2yFIGRSzHs+JkJ4bQeO46Db7Q4FDCBFZaLYJ5FHyCRJFtMmhAsR1kiqExqJdPp8kgfY3NykOoU5AXq9Xr/CEWHo/EBgqkikOs9CFBj90kR4gLB9F21jGbZ2h+fbEMFXhBycUjlGo9GAqqpoNpt9tVLIQKErEHnghNijaAg6hQgYWIdhVPuwrRrvPIRUUiWJ0WqhZZr9sl3X/UcYuBx9Zw0da532KVdgg1PrIQxD9rUzgmW1Idhbu17Hxuoq12oPTV1n/83/exh0y/CcZ1zsIaH/eTjRqD+1MyS85IrCODzC26Ul7G9toWkYaLNcSTZSKFeC2zKCJEtYv2y0DDqDTJLfaa2Gx49WsLP9jXursx0GWyH+ERbyc5idvYVCIYe5uSxKpSKy2Szy+Tzm5+eRy+VQLBbpL2BxcREzMzO4NDaGm9PTWFhYGPlLpRLK5TL+AvmJTLABwVCpAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Screens1&quot;
+        title=&quot;Screens1&quot;
+        src=&quot;/static/fd9cf20fd66f92ee29a6e166e1f26e57/fcda8/screen1.png&quot;
+        srcset=&quot;/static/fd9cf20fd66f92ee29a6e166e1f26e57/12f09/screen1.png 148w,
+/static/fd9cf20fd66f92ee29a6e166e1f26e57/e4a3f/screen1.png 295w,
+/static/fd9cf20fd66f92ee29a6e166e1f26e57/fcda8/screen1.png 590w,
+/static/fd9cf20fd66f92ee29a6e166e1f26e57/efc66/screen1.png 885w,
+/static/fd9cf20fd66f92ee29a6e166e1f26e57/c83ae/screen1.png 1180w,
+/static/fd9cf20fd66f92ee29a6e166e1f26e57/7cad8/screen1.png 3240w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5e5bd0b37811822a5c448353bb677938/7cad8/screen2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC10lEQVQoz22RS2wTVxSGBynAhlDEQ+GVBCQgCwTqGpFQQdtYgHmYGDu2Y8UJ2MAiQUipxAJV6rZqWbQRm6xgAcR2CCAeuxCE1PIQimOICiIBkpZC7NoeezyeGT8+7owhIlKv9OucM7r3m/+cI00938SLWB0vn9URf/QV76dW8Oe99QT8Kwl11+N1LcbvWYS/vYZ2Zy2Dl9aTnNnKm782M/tmjaUPr1eRmG5ClS8gZTODpP4eYHrsHPJ/Vylqw8Sensfl3MnRth20u5vp8H1D8Pj3OA7t5srFTSizy0i8XUpyegnyv7XkZ5eTTzSi535CQpyZx/f542c3RjpployPTxIIHKerKyQUFHmQUOgUbXYnkcsnwThHNvkD/7w+w4eZM+TTZ0X9I7p6Fymfz5BKvOPdyyfImQSlksp47CkOx2Hs9v0cOGDH2XYEt9vNd3taGBwcQjcgl6ug68xJUcriLUgZuUJOUVBUjUwma32Mx1/Q3/870WiUcDhMJBJhePg6F377hdu3blpdFAqKABXmZBiaeGsg5dL9VCpQKpYtd0b+V+KxCBMTkxSLBl+ecrnC6OiolWuaJiB6VXo1loQbSc3dEkVRqCQuKZS0G8TG7jAWe04+ryDLMqlUSrjP8GpykpGRkU8OTWf6nAzD+ARUDdG/LJQhm01XlxKf4MSJEL29vfT09HD6dC99fX10el0MXxuaA5oQU/OA1f6rf9G0gtmYWEoMr9eHx+MR0UtHh59AVxcH99kYEnM1j6qq8xyaqgKNsgCa8ysLYNG6HI8/EyCPAHrx+Xx0d3cTDIZwHHZw7X8cfpYFLKRdZGddvH/rREm60GU3Dx/Y6fRvo7OjAb93I153I8cCmzm0fwnR8HkLaM7XhJrL+Rwt4O5dErt2CjUvsKLt2xq+3i6xds1CGuoXsrpOorFhMfXratjQuIimLeuw2fbS0tJMa2uriC2itln5wMAAHwHZx+ffQDItuQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Screens2&quot;
+        title=&quot;Screens2&quot;
+        src=&quot;/static/5e5bd0b37811822a5c448353bb677938/fcda8/screen2.png&quot;
+        srcset=&quot;/static/5e5bd0b37811822a5c448353bb677938/12f09/screen2.png 148w,
+/static/5e5bd0b37811822a5c448353bb677938/e4a3f/screen2.png 295w,
+/static/5e5bd0b37811822a5c448353bb677938/fcda8/screen2.png 590w,
+/static/5e5bd0b37811822a5c448353bb677938/efc66/screen2.png 885w,
+/static/5e5bd0b37811822a5c448353bb677938/c83ae/screen2.png 1180w,
+/static/5e5bd0b37811822a5c448353bb677938/7cad8/screen2.png 3240w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9d98029c72340c8ff8b7a923c5c75a69/7cad8/screen3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC1klEQVQoz02Sy08UWRTGyx4YdeFEMz54JCqYGOOfoFHjKIpuTGygu6ChuqsfgaVBgjMTZXaSIVETQtigJu4Eh25YaEICOBNloQsNcSEkzCBvutsu+j1NdfObW7eDzEm+fKfOuec75566SsBbiVq/lyZHCS5nKVrjHgL6jwS85Xi1wzjspTLeopbgrN/H82dlRBZOMvPxKAuf97P+zwHW/v6ByJdq0vE+FK3lEj7vNQL+HeieGprUC7i1yyJXi99XS2vgOqrzAsNDnaQ2nrG88Jhs6gX/CmRTQ5LN3CeUmzcd2O0O6upUGhqaJLvdflwuNw6HC6fTRWOTRnOzzo0bDkZHB4E1VlayxBMFzDwSmybkBSuhUJDBwee8GBokGBwWBSHu/voL9+7dpafnd7q770s8fPSA37q6ePVymM1cmOXlZcLrKxhGlFgsQiaTpFAwUcLhdebn54lEImzbwMAAb968lUWLi4ukUikZNwyD16//JGbEpZ9MpmQukUgQj8fFhHmUr19jUnBjYwPTNNna2qKvr5/37/4iETdEd4OCdRdh0WiU8fFxstks6XRGCliw6pLJpGRFbEB0SfN/6+/vZ3r6g/StBttmNZ2cnJSF1kSWiDXhNuSE1sF0Oi12kBEFhjzU29vL2NgYS0tLzM3NMTs7y8zMDFNTU0xMTEjx1dVV8WNWBFt7jAkxsyh4587PdHZ20tHRQXt7u8Bt2tra0HUdn8/3Da2traiqSig0IgVzuZyYdOfK1rcU1DS3eCZuPB6PYI9kXfdKEa93R9DvD4gnpDIyEpSCmUxRcHMzL8SKnM8XUHStGk9LNc2NVRT9IutalYTmqhK54/g9J6i3lxEcqhNrv0Uqaie82ICx5iBr1JMxXJjZP1AqK2yUHVGorPiOcsHHju7m0EGF8jIrZuPI4WKusnyX4BJOn7Jx9fIezp9VuHjexrkzCjU/2bhy6XuePuniP9sVvgDrcsxUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Screens2&quot;
+        title=&quot;Screens2&quot;
+        src=&quot;/static/9d98029c72340c8ff8b7a923c5c75a69/fcda8/screen3.png&quot;
+        srcset=&quot;/static/9d98029c72340c8ff8b7a923c5c75a69/12f09/screen3.png 148w,
+/static/9d98029c72340c8ff8b7a923c5c75a69/e4a3f/screen3.png 295w,
+/static/9d98029c72340c8ff8b7a923c5c75a69/fcda8/screen3.png 590w,
+/static/9d98029c72340c8ff8b7a923c5c75a69/efc66/screen3.png 885w,
+/static/9d98029c72340c8ff8b7a923c5c75a69/c83ae/screen3.png 1180w,
+/static/9d98029c72340c8ff8b7a923c5c75a69/7cad8/screen3.png 3240w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
